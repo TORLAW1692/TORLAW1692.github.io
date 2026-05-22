@@ -1,3 +1,54 @@
 body {
-    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; 
+}
+/* Header Styling */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav a:hover {
+    color: #3b82f6;
+}
+/* Navigation Menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+/* Main Content Sections */
+section {
+    padding: 30px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+
+    /* Smooth hover animation for section cards. Although grayed out "transform" still needed for operation */
+    transition: transform 0.3s ease;
+}
+/* Section Hover Effect */
+section:hover {
+    transform: translateY(-5px);
+}
+/* Footer Styling */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
 }
