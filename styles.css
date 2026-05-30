@@ -14,13 +14,17 @@ header {
     padding: 20px;
 }
 nav a:hover {
-    color: #3b82f6;
+    background-color: #3b82f6;
+    color: white;
 }
 /* Navigation Menu */
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 nav ul {
     list-style-type: none;
@@ -42,7 +46,7 @@ section {
 }
 /* Section Hover Effect */
 section:hover {
-    transform: translateY(-5px);
+    transform: scale(1.02);
 }
 /* Footer Styling */
 footer {
@@ -51,4 +55,34 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
+}
+/* Project Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+/* Table Caption */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+/* Table Header and Cell Styling */
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+thead {
+    background-color: #1f2937;
+    color: white;
+}
+/* Highlight First and Third Columns */
+.highlight-column {
+    background-color: #e5e7eb;
+}
+tfoot {
+    font-style: italic;
+    text-align: center;
 }
