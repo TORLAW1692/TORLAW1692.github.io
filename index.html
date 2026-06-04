@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio website for Tory Lawson showcasing web development projects, skills, and contact information.">
+    <meta name="description"
+        content="Portfolio website for Tory Lawson showcasing web development projects, skills, and contact information.">
     <meta name="keywords" content="HTML, CSS, Web Development">
     <meta name="author" content="Tory Lawson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tory Lawson | Portfolio</title>
-    <link href= "styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Welcome to Tory's Page!</h1>
@@ -20,11 +23,13 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Computer Science student focused on cloud engineering and DevOps. I'm building technical skills through hands-on projects, continuous learning, and practical problem solving. My goal is to design, automate, and maintain reliable systems while continuously expanding my knowledge of cloud technologies.</p>
+            <p>Computer Science student focused on cloud engineering and DevOps. I'm building technical skills through
+                hands-on projects, continuous learning, and practical problem solving. My goal is to design, automate,
+                and maintain reliable systems while continuously expanding my knowledge of cloud technologies.</p>
         </section>
         <!-- Projects Section with Required Table Structure -->
         <section id="projects">
@@ -33,32 +38,33 @@
             <table>
                 <caption>Featured Portfolio Projects</caption>
 
-            <colgroup>
-                <col class="highlight-column">
-                <col>
-                <col class="highlight-column">
-            </colgroup>
-            <!-- Table Header -->
-            <thead>
-                <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Project Screenshot Placeholder</th>
-                </tr>
-            </thead>
-            <!-- Project Data -->
-            <tbody>
-                <tr>
-                    <td>Personal Portfolio Website</td>
-                    <td>A responsive website used to present my background, skills, and career direction.</td>
-                    <td>Image coming soon</td>
-                </tr>
-                <tr>
-                    <td>Cloud Learning Lab</td>
-                    <td>A growing technical lab focused on Linux, GitHub, cloud concepts, automation, and DevOps learning.</td>
-                    <td>Image coming soon</td>
-                </tr>
-            </tbody>
+                <colgroup>
+                    <col class="highlight-column">
+                    <col>
+                    <col class="highlight-column">
+                </colgroup>
+                <!-- Table Header -->
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Project Screenshot Placeholder</th>
+                    </tr>
+                </thead>
+                <!-- Project Data -->
+                <tbody>
+                    <tr>
+                        <td>Personal Portfolio Website</td>
+                        <td>A responsive website used to present my background, skills, and career direction.</td>
+                        <td>Image coming soon</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Learning Lab</td>
+                        <td>A growing technical lab focused on Linux, GitHub, cloud concepts, automation, and DevOps
+                            learning.</td>
+                        <td>Image coming soon</td>
+                    </tr>
+                </tbody>
                 <!-- Future Project Notice -->
                 <tfoot>
                     <tr>
@@ -67,31 +73,52 @@
                 </tfoot>
             </table>
         </section>
-        
+
         <section id="contact">
             <h2>Contact Me</h2>
-                <p>
-                    I'm always interested in connecting with fellow students,
-                    developers, and industry professionals.
-                </p>
 
-                <p>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/tory-lawson-7a41486a/" target="_blank">
-                        View My Profile
-                    </a>
-                </p>
-                <p>
-                    GitHub:
-                    <a href="https://github.com/TORLAW1692" target="_blank">
-                        View My Repositories
-                    </a>
-                </p>
+            <p>
+                I'm always interested in connecting with fellow students,
+                developers, and industry professionals.
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/torylawson-tech/" target="_blank">
+                    View My Profile
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/TORLAW1692" target="_blank">
+                    View My Repositories
+                </a>
+            </p>
+
+            <!-- Contact Form -->
+            <form>
+                <label for="senderName">Name:</label>
+                <input type="text" id="senderName" name="senderName" required>
+
+                <label for="senderEmail">Email:</label>
+                <input type="email" id="senderEmail" name="senderEmail" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
         </section>
     </main>
     <!-- Footer Information -->
     <footer>
-        <p>&copy; 2026 Tory Lawson. All rights reserved.</p> <!-- Copyright Html character chosen to fit the theme of footer -->
+        <p>&copy; 2026 Tory Lawson. All rights reserved.</p>
+        <!-- Copyright Html character chosen to fit the theme of footer -->
     </footer>
 </body>
+
 </html>
