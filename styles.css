@@ -176,3 +176,44 @@ header p {
     transform: scale(1.15);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 768px) {
+    #projects table,
+    #projects thead,
+    #projects tbody,
+    #projects tfoot,
+    #projects tr,
+    #projects td,
+    #projects th {
+        display: block;
+        width: 100%;
+    }
+
+    #projects thead {
+        display: none;
+    }
+
+    #projects tr {
+        margin-bottom: 1.5rem;
+        border: 1px solid #333;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #projects td {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    #projects td:first-child {
+        font-weight: bold;
+        background-color: #1e293b;
+    }
+
+    .project-screenshot {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
