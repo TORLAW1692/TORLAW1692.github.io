@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description"
         content="Portfolio website for Tory Lawson showcasing web development projects, skills, and contact information.">
-    <meta name="keywords" content="HTML, CSS, Web Development">
+    <meta name="keywords" content="HTML, CSS, Web Development, .NET MAUI, Kotlin">
     <meta name="author" content="Tory Lawson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tory Lawson | Portfolio</title>
@@ -16,7 +16,7 @@
     <header>
         <h1>Tory Lawson</h1>
         <p>Early Career Software Developer</p>
-        <p>Cloud Technologies &bull; DevOps &bull; Automation</p>
+        <p>Mobile Development &bull; .NET &bull; Software Engineering</p>
 
         <nav> <!-- navigation list containing an unordered list with 3 items within -->
             <ul>
@@ -30,7 +30,7 @@
     <main>
         <section id="about">
             <h2>Software Development Journey</h2>
-            <p>Early Career Software Developer focused on cloud engineering, DevOps, and continuous technical growth. I
+            <p>Early Career Software Developer focused on mobile development, cross-platform applications, and continuous technical growth. I
                 believe technical growth comes from consistent execution, curiosity, and adaptability. Difficult
                 problems become manageable when approached with persistence and a willingness to learn.</p>
         </section>
@@ -39,10 +39,9 @@
             <h2>Technical Skills</h2>
 
             <ul>
-                <li><strong>Languages & Markup:</strong> HTML5, CSS3, C#, Kotlin </li>
-                <li><strong>Tools & Platforms:</strong> Git, GitHub, Visual Studio Code, Android Studio</li>
-                <li><strong>Concepts:</strong> Responsive Web Design, Object-Oriented Programming, Agile & Scrum, Linux
-                    Fundamentals, Networking Fundamentals</li>
+                <li><strong>Languages & Markup:</strong> C#, .NET MAUI, Kotlin, HTML5, CSS3 </li>
+                <li><strong>Tools & Platforms:</strong> Git, GitHub, Visual Studio, Visual Studio Code, Android Studio</li>
+                <li><strong>Concepts:</strong> Object-Oriented Programming, Database Persistence (SQLite), Asynchronous Operations, Responsive Web Design, Agile & Scrum</li>
             </ul>
         </section>
         <section id="portfolio-overview">
@@ -52,7 +51,7 @@
                 This portfolio was built from scratch using HTML5, CSS3, responsive design,
                 Git, GitHub, and GitHub Pages. I maintain it as a living technical artifact
                 to document my software development growth, completed projects, and current
-                cloud and DevOps learning path.
+                technical learning path.
             </p>
 
             <p>
@@ -89,18 +88,68 @@
                 <tbody>
 
                     <tr>
-                        <td>AI-Assisted System Design Project</td>
+                        <td><a class="project-link" href="https://github.com/TORLAW1692/MAUI_RSVP_App" target="_blank" rel="noopener">MAUI_RSVP_App</a></td>
 
-                        <td>AI-Assisted Research, Hardware Selection, System Design, Technical Documentation</td>
+                        <td>C#, .NET MAUI, XAML, SQLite, Asynchronous Operations, Authentication State</td>
 
                         <td>
-                            Designed a computer system meeting project requirements while evaluating
-                            compatibility, performance, cost, and upgrade potential.
+                            A cross-platform event application built with .NET MAUI. Features include authenticated user state management, local SQLite database persistence, and asynchronous database operations.
+                        </td>
+
+                        <td>
+                            <a href="images/maui-rsvp-eventlist.png" target="_blank">
+                                <img src="images/maui-rsvp-eventlist.png" alt="MAUI RSVP App event list screenshot"
+                                    class="project-screenshot">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="project-link" href="https://github.com/TORLAW1692/D4Builds-Mobile-Interface-Redesign" target="_blank" rel="noopener">D4Builds-Mobile-Interface-Redesign</a></td>
+
+                        <td>UI/UX Design, Mobile Interface Redesign, Prototyping, Wireframing</td>
+
+                        <td>
+                            A comprehensive mobile interface overhaul. The project documents the full redesign lifecycle, including user pain point analysis, iterative prototyping, mobile usability, readability, navigation clarity, visual hierarchy, and final interface solutions.
+                        </td>
+
+                        <td>
+                            <a href="images/d4builds-redesign-final.png" target="_blank">
+                                <img src="images/d4builds-redesign-final.png" alt="D4Builds mobile redesign final high-fidelity screenshot"
+                                    class="project-screenshot">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><a class="project-link" href="https://github.com/TORLAW1692/TechConvert_App" target="_blank" rel="noopener">TechConvert_App</a></td>
+
+                        <td>Kotlin, Android Studio, XML, Android SDK, Unit Conversion</td>
+
+                        <td>
+                            A multi-purpose conversion tool for storage units and network speed, including storage capacity estimation. Designed to facilitate accurate data conversions for technical environments.
+                        </td>
+
+                        <td>
+                            <a href="images/TechConvertFunctional.png" target="_blank">
+                                <img src="images/TechConvertFunctional.png"
+                                    alt="TechConvert App functional screenshot" class="project-screenshot">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>AI-Assisted System Design</td>
+
+                        <td>Hardware Planning, System Design, Component Selection, Technical Documentation</td>
+
+                        <td>
+                            Designed a complete desktop computer system using AI-assisted requirements analysis and component selection. Evaluated CPU, motherboard, RAM, storage, power supply, peripherals, system compatibility, and budget constraints while meeting ECPI technical requirements. Demonstrates hardware planning, system integration, and technical decision-making skills.
                         </td>
 
                         <td>
                             <a href="images/conversation.png" target="_blank">
-                                <img src="images/conversation.png" alt="AI-Assisted System Design Project"
+                                <img src="images/conversation.png" alt="AI-Assisted System Design project screenshot"
                                     class="project-screenshot">
                             </a>
                         </td>
@@ -112,41 +161,13 @@
                         <td>Kotlin, Android Studio, Android SDK, Activity Navigation, Intents</td>
 
                         <td>
-                            Built a simple Android application that demonstrates passing user input
-                            between activities. The project includes multiple screens, intent-based
-                            navigation, UI layout refinement, testing, and technical documentation
-                            with screenshots.
+                            A simple Android application that demonstrates passing user input between activities, using multiple screens and intent-based navigation.
                         </td>
 
                         <td>
                             <a href="images/passing-data-app.png" target="_blank">
                                 <img src="images/passing-data-app.png" alt="Android Passing Data App screenshot"
                                     class="project-screenshot">
-                            </a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>TechConvert Mobile App — Functional MVP</td>
-
-                        <td>Kotlin, Android Studio, XML, Android SDK, Multi-Screen Navigation, Unit Conversion Logic
-                        </td>
-
-                        <td>
-                            Built a functional Android mobile app designed for technology students, cloud learners,
-                            and IT beginners. TechConvert includes storage unit conversion, network speed conversion,
-                            and storage estimation tools. The project demonstrates multi-screen Android development,
-                            user input handling, spinner-based selections, calculation logic, UI refinement, and
-                            iterative debugging.
-                            <br><br>
-                            Future upgrades may include improved validation, expanded conversion tools, saved history,
-                            and a downloadable release package.
-                        </td>
-
-                        <td>
-                            <a href="images/TechConvertFunctional.png" target="_blank">
-                                <img src="images/TechConvertFunctional.png"
-                                    alt="TechConvert Android app functional screenshots" class="project-screenshot">
                             </a>
                         </td>
                     </tr>
@@ -187,27 +208,6 @@
                     github.com/TORLAW1692
                 </a>
             </p>
-
-            <p>
-                Contact form currently under development. Please use the links above for direct communication.
-            </p>
-
-            <!-- Contact Form -->
-            <form>
-                <label for="senderName">Name:</label>
-                <input type="text" id="senderName" name="senderName" required>
-
-                <label for="senderEmail">Email:</label>
-                <input type="email" id="senderEmail" name="senderEmail" required>
-
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject">
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5"></textarea>
-
-                <input type="submit" value="Send Message">
-            </form>
         </section>
     </main>
     <!-- Footer Information -->

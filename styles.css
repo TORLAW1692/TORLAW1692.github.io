@@ -92,6 +92,17 @@ a {
 a:hover {
     color: #93C5FD;
 }
+/* Project Name Links */
+.project-link {
+    color: #3B82F6;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgba(59, 130, 246, 0.5);
+}
+.project-link:hover {
+    color: #60A5FA;
+    text-decoration-color: #60A5FA;
+}
 /* Main Flexbox Layout */
 main {
     display: flex;
